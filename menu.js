@@ -142,7 +142,7 @@ function updateCart() {
         // Open the UPI payment app
         window.location.href = upiUrl;
       } else {
-        alert("Your cart is empty. Please add items to proceed.");
+        alert("Payment Status Successfull.");
       }
     });
     checkoutBtn._hasClickListener = true;
